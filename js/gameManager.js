@@ -133,7 +133,7 @@ function checkWin() {
       "#75e4f8"
     );
     useSpeaker("Bravo, Tu as gagné, le mot était, " + getCurrentWord() + ".");
-    let winnerWord = newGame();
+    newGame();
   }
 }
 
