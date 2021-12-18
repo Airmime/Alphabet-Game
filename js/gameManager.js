@@ -128,7 +128,10 @@ function checkWin() {
   /* Display modal, and launch new game if we win. */
   if (winner) {
     addCookies();
-    showModal("../img/winner.gif", "#75e4f8");
+    showModal(
+      "https://cdn.dribbble.com/users/1375596/screenshots/3624968/media/8e0c7e0904dbbbe6a511168d66eb51b7.gif",
+      "#75e4f8"
+    );
     useSpeaker("Bravo, Tu as gagné, le mot était, " + getCurrentWord() + ".");
     let winnerWord = newGame();
   }
