@@ -1,6 +1,9 @@
 # Alphabet Game for childrens.
 :blue_book: Children's games to learn the alphabet with simple words.
 
+![Alphabet-Game](https://www.zupimages.net/up/22/01/akd3.png)
+
+
 ## Development
 The game was developed in HTML/CSS and Javascript.
 
